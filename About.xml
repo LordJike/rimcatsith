@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+  <packageId>Jike.ArchofeyCatSith</packageId>
+  <name>Archofey Entities: Cat Sith</name>
+  <author>Jike</author>
+  <description>Adds a new Entity based on various legends of the Cat Sith</description>
+  <supportedVersions>
+  <li>1.5</li>
+</supportedVersions>
+<modVersion>0.01</modVersion>
+<!-- <url>WIP</url> -->
+
+</ModMetaData>

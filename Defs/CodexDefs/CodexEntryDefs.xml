@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <EntityCodexEntryDef>
+        <defName>CatSith</defName>
+        <label>cat sith</label>
+        <description>A turgid blood-like psychofluid that falls from the sky. Anyone exposed to it feels a growing anger that eventually becomes a berserk rage.</description>
+        <category>Advanced</category>
+        <uiIconPath>CatSith/Cat_Sith_East</uiIconPath>
+        <linkedThings>
+            <li>CatSith</li>
+          </linkedThings>
+        <orderInCategory>5860</orderInCategory>
+      </EntityCodexEntryDef>
+</Defs>

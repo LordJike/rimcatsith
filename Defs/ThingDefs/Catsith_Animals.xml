@@ -2,9 +2,9 @@
 <Defs>
   <ThingDef ParentName="AnimalThingBase">
     <defName>CatSith</defName>
-    <label>cat</label>
-    <devNote>not just a cat</devNote>
-    <description>One of mankind's first pets, the cat is a small mammal which hunts vermin. Known for their aloofness, cats are nevertheless popular companions because of their independence, calm disposition, and fine, pettable fur.</description>
+    <label>cat sith</label>
+    <devNote>cat</devNote>
+    <description>A strange cat made sentient and given strange powers through the psionic influence of a whimsical machine god. It is attracted by colonies capable of producing diary products. So long as its need for milk is satisifed, will periodically give blessings to the colony. If its need for milk is left unsatisfied for too long, it will place a curse on the colony and leave.</description>
     <statBases>
       <MoveSpeed>4.4</MoveSpeed>
       <MarketValue>100</MarketValue>
@@ -135,19 +135,52 @@
       </li>
     </tools>
   </ThingDef>
-
+  
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>CatSith</defName>
     <label>cat sith</label>
-    <race>CatSith</race>
+    <race>Cat</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.3</ecoSystemWeight>
-    <li Class="CompProperties_Studiable">
-      <frequencyTicks>120000</frequencyTicks>
-      <knowledgeCategory>Advanced</knowledgeCategory>
-      <anomalyKnowledge>2</anomalyKnowledge>
-      <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-      <showToggleGizmo>true</showToggleGizmo>
-    </li>
+    <lifeStages>
+      <li>
+        <label>kitten</label>
+        <bodyGraphicData>
+          <texPath>CatSith/Cat_Sith</texPath>
+          <drawSize>0.6</drawSize>
+          <color>(189,171,159)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>CatSith/Cat_Sith</texPath>
+          <drawSize>0.8</drawSize>
+          <color>(189,171,159)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>CatSith/Cat_Sith</texPath>
+          <drawSize>1.0</drawSize>
+          <color>(189,171,159)</color>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
   </PawnKindDef>
 </Defs>

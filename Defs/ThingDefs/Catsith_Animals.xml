@@ -138,49 +138,16 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>CatSith</defName>
-    <label>cat</label>
-    <race>Cat</race>
+    <label>cat sith</label>
+    <race>CatSith</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.3</ecoSystemWeight>
-    <lifeStages>
-      <li>
-        <label>kitten</label>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Cat</texPath>
-          <drawSize>0.6</drawSize>
-          <color>(189,171,159)</color>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>0.6</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Cat</texPath>
-          <drawSize>0.8</drawSize>
-          <color>(189,171,159)</color>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>0.8</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Cat</texPath>
-          <drawSize>1.0</drawSize>
-          <color>(189,171,159)</color>
-          <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>1.0</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
+    <li Class="CompProperties_Studiable">
+      <frequencyTicks>120000</frequencyTicks>
+      <knowledgeCategory>Advanced</knowledgeCategory>
+      <anomalyKnowledge>2</anomalyKnowledge>
+      <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+      <showToggleGizmo>true</showToggleGizmo>
+    </li>
   </PawnKindDef>
 </Defs>

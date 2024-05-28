@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase">
-    <defName>CatSith</defName>
+    <defName>CatSithUntamed</defName>
     <label>cat sith</label>
     <devNote>cat</devNote>
     <description>A strange cat made sentient and given strange powers through the psionic influence of a whimsical machine god. It is attracted by colonies capable of producing diary products. So long as its need for milk is satisifed, will periodically give blessings to the colony. If its need for milk is left unsatisfied for too long, it will place a curse on the colony and leave.</description>
@@ -20,7 +20,7 @@
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0</wildness>
-      <petness>1</petness>
+      <petness>0</petness>
       <trainability>None</trainability>
       <nuzzleMtbHours>12</nuzzleMtbHours>
       <gestationPeriodDays>10</gestationPeriodDays>
@@ -69,33 +69,6 @@
       <li>AnimalPet</li>
     </tradeTags>
     <comps>
-      <li>
-        <compClass>CompRevenant</compClass>
-      </li>
-      <li Class="CompProperties_HoldingPlatformTarget">
-        <baseEscapeIntervalMtbDays>45</baseEscapeIntervalMtbDays>
-        <lookForTargetOnEscape>false</lookForTargetOnEscape>
-      </li>
-      <li Class="CompProperties_AttachPoints">
-        <points>
-          <li>
-            <offset>(-.35, 0, .35)</offset>
-            <type>PlatformRestraint0</type>
-          </li>
-          <li>
-            <offset>(.35, 0, .35)</offset>
-            <type>PlatformRestraint1</type>
-          </li>
-          <li>
-            <offset>(.2, 0, -.71)</offset>
-            <type>PlatformRestraint2</type>
-          </li>
-          <li>
-            <offset>(-.2, 0, -.71)</offset>
-            <type>PlatformRestraint3</type>
-          </li>
-        </points>
-      </li>
       <li Class="CompProperties_ProducesBioferrite">
         <bioferriteDensity>4</bioferriteDensity>
       </li>
@@ -104,7 +77,6 @@
         <knowledgeCategory>Advanced</knowledgeCategory>
         <anomalyKnowledge>3</anomalyKnowledge>
         <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-        <requiresHoldingPlatform>true</requiresHoldingPlatform>
       </li>
     </comps>
     <tools>

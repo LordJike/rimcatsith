@@ -8,6 +8,12 @@
   <supportedVersions>
   <li>1.5</li>
 </supportedVersions>
+<modDependencies>
+  <li>
+    <packageId>Jike.ArchofeyBase</packageId>
+    <displayName>Archofey Entities [BASE]</displayName>
+    </li>
+</modDependencies>
 <modVersion>0.01</modVersion>
 <!-- <url>WIP</url> -->
 

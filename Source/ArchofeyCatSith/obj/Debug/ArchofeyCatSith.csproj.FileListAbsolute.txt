@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimcatsith\Source\ArchofeyCatSith\obj\Debug\ArchofeyCatSith.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimcatsith\Source\ArchofeyCatSith\obj\Debug\ArchofeyCatSith.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimcatsith\Assemblies\ArchofeyCatSith.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rimcatsith\Source\ArchofeyCatSith\obj\Debug\ArchofeyCatSith.dll

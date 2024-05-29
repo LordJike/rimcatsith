@@ -10,7 +10,7 @@
 </supportedVersions>
 <modDependencies>
   <li>
-    <packageId>Ludeon.Anomaly</packageId>
+    <packageId>Ludeon.Rimworld.Anomaly</packageId>
     <displayName>Anomaly</displayName>
     </li>
 </modDependencies>

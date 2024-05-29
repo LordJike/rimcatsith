@@ -4,14 +4,14 @@
   <packageId>Jike.ArchofeyCatSith</packageId>
   <name>Archofey Entities: Cat Sith</name>
   <author>Jike</author>
-  <description>Adds a new Entity based on various legends of the Cat Sith</description>
+  <description>Adds a new Entity based on various legends of the Cat Sith. Proof of concept for a bigger mod.</description>
   <supportedVersions>
   <li>1.5</li>
 </supportedVersions>
 <modDependencies>
   <li>
-    <packageId>Jike.ArchofeyBase</packageId>
-    <displayName>Archofey Entities [BASE]</displayName>
+    <packageId>Ludeon.Anomaly</packageId>
+    <displayName>Anomaly</displayName>
     </li>
 </modDependencies>
 <modVersion>0.01</modVersion>

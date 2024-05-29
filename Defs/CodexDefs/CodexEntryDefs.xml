@@ -5,7 +5,7 @@
         <label>cat sith</label>
         <description>A turgid blood-like psychofluid that falls from the sky. Anyone exposed to it feels a growing anger that eventually becomes a berserk rage.</description>
         <category>Advanced</category>
-        <uiIconPath>CatSith/Cat_Sith_East</uiIconPath>
+        <uiIconPath>CodexEntry/CatSith</uiIconPath>
         <linkedThings>
             <li>CatSith</li>
           </linkedThings>

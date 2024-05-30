@@ -12,7 +12,7 @@
   <li>
     <packageId>Ludeon.Rimworld.Anomaly</packageId>
     <displayName>Anomaly</displayName>
-    </li>
+  </li>
 </modDependencies>
 <modVersion>0.01</modVersion>
 <!-- <url>WIP</url> -->

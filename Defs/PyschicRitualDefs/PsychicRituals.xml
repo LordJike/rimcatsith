@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <PsychicRitualDef_PleasurePulse>
+        <defName>LivestockFrenzy</defName>
+        <label>livestock frenzy</label>
+        <description>Emit a psychic pulse that increases the biological functions of all livestock in the region, causing them to produce more animal products (milk, wool, eggs, etc.), increases their reproductive activity and reduces their gestation period, but increases their metabolism, causing them to get hungrier and age faster.</description>
+        <researchPrerequisite>LivestockFrenzy</researchPrerequisite>
+        <outcomeDescription>At the current ritual quality, the effect will last for {0}.</outcomeDescription>
+        <hoursUntilOutcome>4</hoursUntilOutcome>
+        <requiredOffering>
+          <filter>
+            <thingDefs>
+              <li>Bioferrite</li>
+            </thingDefs>
+          </filter>
+          <count>30</count>
+        </requiredOffering>
+        <durationDaysFromQualityCurve>
+          <points>
+            <li>(0, 10)</li>
+            <li>(0.5, 20)</li>
+            <li>(1, 40)</li>
+          </points>
+        </durationDaysFromQualityCurve>
+        <cooldownHours>120</cooldownHours>
+        <chanterRole>ChanterAdvanced</chanterRole>
+        <iconPath>Rituals/PsychicRitual_LivestockFrenzy</iconPath>
+      </PsychicRitualDef_PleasurePulse>
+</Defs>

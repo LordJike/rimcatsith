@@ -3,7 +3,7 @@
     <EntityCodexEntryDef>
         <defName>CatSith</defName>
         <label>cat sith</label>
-        <description>A turgid blood-like psychofluid that falls from the sky. Anyone exposed to it feels a growing anger that eventually becomes a berserk rage.</description>
+        <description>A mysterious black cat with a white spot on it's front, intelligent and capable of speech. Tribal superstition speaks that if you were ever to meet a black cat, you should leave milk out for it as an offering, if you do, it will bless you with good luck, otherwise, it will curse your livestock with a grave sickness.</description>
         <category>Advanced</category>
         <uiIconPath>CodexEntry/CatSith</uiIconPath>
         <linkedThings>

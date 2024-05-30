@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>LivestockFrenzy</defName>
+        <label>livestock frenzy</label>
+        <description>Perform a psychic ritual that increases the production of animal products (milk, wool, etc.) in all livestock in the region, but makes them hungrier faster.</description>
+        <tab>Anomaly</tab>
+        <prerequisites>
+            <li>SummonAnimals</li>
+            <li>AdvancedPsychicRituals</li>
+        </prerequisites>
+        <knowledgeCost>40</knowledgeCost>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <researchViewX>7.50</researchViewX>
+        <researchViewY>1.00</researchViewY>
+        <generalRules>
+          <rulesStrings>
+            <li>subject->livestock frenzy invocation</li>
+    
+            <li>subject_story->studied imperial livestock farming technology</li>
+            <li>subject_story->researched ancient livestock curses and blessings</li>
+            <li>subject_story->pinpointed hormones that increase animal metabolism</li>
+            <li>subject_story->reflected on knowledge acquired from a dream where they were turned into a cow</li>
+    
+            <li>subject_gerund->increasing animal producitivty psychically</li>
+    
+            <li>subject_gerund->performing a psychic ritual to enhance their livestock's productivity</li>
+          </rulesStrings>
+        </generalRules>
+      </ResearchProjectDef>
+</Defs>
